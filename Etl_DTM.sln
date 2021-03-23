@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Etl_TDM", "Etl_TDM.dtproj", "{222B7496-A98A-40DD-8578-4093AFCA7B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222B7496-A98A-40DD-8578-4093AFCA7B60}.Development|Default.ActiveCfg = Development
+		{222B7496-A98A-40DD-8578-4093AFCA7B60}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E7267E0-718F-4F23-ADD3-6FF57D37D647}
+	EndGlobalSection
+EndGlobal
