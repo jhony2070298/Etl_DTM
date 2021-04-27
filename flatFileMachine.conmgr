@@ -1,0 +1,475 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="flatFileMachine"
+  DTS:DTSID="{807A4369-0B3A-4403-BA73-9FEE751CF2BD}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="3082"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\ProgramasTDM\WSEquitel\TDM_DatosApi\DataApiTDMMachine.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="RankingDate"
+          DTS:DTSID="{942C8E1C-63C3-443F-8685-5A7AD8ECD89D}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MachineName"
+          DTS:DTSID="{8FFBC162-1B98-4244-88FF-3DCAA3F918A9}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="200"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MachineGroup"
+          DTS:DTSID="{777A6D5C-6F7D-45FC-B01F-E417F609F704}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverSpeedScore"
+          DTS:DTSID="{CB0AA887-A566-4855-ADBF-4FAFEA05A974}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverSpeedCount"
+          DTS:DTSID="{71FE8D3B-7C28-469B-B9F6-FF36A6CFC2C2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverSpeedTotalSeconds"
+          DTS:DTSID="{04A5DFAD-57AE-4947-A389-2610B7498ADB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MaxSpeed"
+          DTS:DTSID="{9731DF18-CDBD-4F61-BAFF-53AB6DCFF428}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="SpeedTime"
+          DTS:DTSID="{462A3E64-BD58-4B86-81ED-8CCF5F8C3EF7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverRpmScore"
+          DTS:DTSID="{779651C8-646B-4C7B-B891-B1E0A2DC0B36}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverRpmCount"
+          DTS:DTSID="{861ECAA6-3168-45D9-AC77-7061389A92F2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverRpmTotalSeconds"
+          DTS:DTSID="{B698F380-555D-4D5E-B723-B982822BC470}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MaxRpm"
+          DTS:DTSID="{17F6B333-C97C-4434-B11A-DC26896AE6C0}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="RpmTime"
+          DTS:DTSID="{11D90A94-8528-4C0F-9705-A01666FF2055}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ExessiveIdleScore"
+          DTS:DTSID="{64C97CB5-9A3B-4B0A-871C-166CD8062058}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ExcessiveIdleCount"
+          DTS:DTSID="{6D86633B-94F6-4ABF-B5A0-ECB5BDD3E660}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ExcessiveIdleTotalSeconds"
+          DTS:DTSID="{4B0C7FB8-8B2F-4B3E-AE63-4C87E63241A1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="GreenBandScore"
+          DTS:DTSID="{E5DCAFFF-E7B3-4C78-973A-E670BBA16AC3}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="GreenBandCount"
+          DTS:DTSID="{0263BA06-1CF9-4A88-850F-817DCD5D6640}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="GreenBandTotalSeconds"
+          DTS:DTSID="{DF8A02B9-EA39-4A6F-B15D-161827EA90EC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="14"
+          DTS:TextQualified="True"
+          DTS:ObjectName="GreenBandTime"
+          DTS:DTSID="{01A5E2C8-89E9-4920-997E-6A4A4F683550}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverAccelerationScore"
+          DTS:DTSID="{62A4AE27-6F52-423E-8793-220C7E284A69}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverAccelerationCount"
+          DTS:DTSID="{24CEF8C3-F2B7-469F-919A-2C1C5419B3CD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OverAccelerationTotalSeconds"
+          DTS:DTSID="{87599E88-0AAD-4EEC-88CA-9AB0F1A1BEBB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MaxAcceleration"
+          DTS:DTSID="{A9588521-A569-4A96-BDF0-0CB783F79085}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="HarshBrakeScore"
+          DTS:DTSID="{C35B9D56-4B38-4173-A1ED-1C5ABBBC214C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="HarshBrakeCount"
+          DTS:DTSID="{F9061BED-5721-4CF4-B8E6-C63405AAE13A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="HarshBrakeTotalSeconds"
+          DTS:DTSID="{5FC689D5-C873-42B2-8786-8E27E2DB643F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MaxBrake"
+          DTS:DTSID="{F62249B8-2B9D-4685-A202-485EC4A2166F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="LoginScore"
+          DTS:DTSID="{297E33A7-0243-4F26-858B-051E14644CDF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="LoginCount"
+          DTS:DTSID="{A4B0943D-4E21-4DBC-ACEA-173BD980C009}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedStartScore"
+          DTS:DTSID="{BFD1260F-F675-47D2-8D19-CB5CFC9C1883}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedStartCount"
+          DTS:DTSID="{55CB0E83-53F5-46C4-B1C7-8AE4AD827DA2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedStartTime"
+          DTS:DTSID="{29848B40-2D28-4199-889E-3F7D3AD3E906}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedRouteDrivingScore"
+          DTS:DTSID="{DBE89562-BBF7-41A0-8BEF-F085F41ADF47}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedRouteDrivingCount"
+          DTS:DTSID="{36493D92-E6B7-44FB-852D-1CBC3F4CFFB9}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DelayedRouteDrivingTime"
+          DTS:DTSID="{D8D186B9-2969-40EE-A539-CC0D29C14D75}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Distance"
+          DTS:DTSID="{B1629BE8-C1D2-4AC9-8049-30775F2576E7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Odometer"
+          DTS:DTSID="{0E481403-ADC5-4DAA-B5EC-2AB50A661A69}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Liters"
+          DTS:DTSID="{446782D3-4134-411F-8ABB-B32C09035CDF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DrivingTime"
+          DTS:DTSID="{60CF6B1E-654D-4A76-8BAA-223EC13C9C1E}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EngineTime"
+          DTS:DTSID="{3B556CB7-CFD9-4F81-91EA-68EFEEF9586A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EngineHours"
+          DTS:DTSID="{0D6734AF-85FF-443C-A163-7D765202754A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ExidleTime"
+          DTS:DTSID="{1816B98A-7984-41FC-814B-4BC1B0ACF0F1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="IdleEnterCount"
+          DTS:DTSID="{FA44F808-687B-4C4C-A3DC-3C4707328EF9}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NidleTime"
+          DTS:DTSID="{7DEFE5CA-5ADD-4AC3-B44C-C29DF8CDB5E7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="StandingTime"
+          DTS:DTSID="{6B4BDA26-DDF6-4F55-A922-139B308B1239}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="StartLatitude"
+          DTS:DTSID="{863E8CAB-2F2C-41EC-ADEB-B1626DE1558A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="StartLongitude"
+          DTS:DTSID="{3C60FDFD-63B9-4DDA-ABAC-FF37F2E5777F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EndLatitude"
+          DTS:DTSID="{7BB73B9C-A1F3-4293-BB56-3E10D29A2E5F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EndLongitude"
+          DTS:DTSID="{0A33395F-C94C-4562-B52E-C52979F4A330}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="TotalScore"
+          DTS:DTSID="{7B667917-1A7C-48CA-845D-114B1502726D}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="20"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="TotalTime "
+          DTS:DTSID="{D7FA5FA5-9999-45DE-8896-C0DFA6874DA5}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
