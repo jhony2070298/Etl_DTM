@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="152"
-  DTS:VersionGUID="{3B3F2BF3-30E5-44BC-BC40-7B750A83559E}">
+  DTS:VersionBuild="153"
+  DTS:VersionGUID="{5C795324-FF5B-4751-8B8E-FC79023E3DBC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADFZu2oVlFkrt4+7uSqYvdu+trfTOv9FUytozQ2JJJ1XwAAAAAOgAAAAAIAACAAAAC4H7ItG2u+7xOcQBUbxCyqaEJTzzPnWJWTiQbEQYkpWBAAAAAohQ86uGN6NgwJUntA2FFdQAAAAIxSWc+vRiAHQupyBq1AzG5HbLFj9MGHwSQnWrZukGAKybyB2HmuVPGqeCyCdDaPKZk81aVYTmAC1F5/jgSq6/M</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABF9clbCwK/kkOuitK7rYyWZDEAk+pu85o5jXfQ8qTdfgAAAAAOgAAAAAIAACAAAAC/+uA4at/Sc9GNwz3V+iCIp+Zao61DWy5AJIgRrGNvdRAAAAAHKuUYComRzMIbaOsFOs5RQAAAADioVBtxEBQqJzEeAz9bC1pJpHUR6MvoMZu8NJSoM0Y5kZa9gecmi68WrapJ8/vMgsrXGYMUaYJ+3H+YqQRYnRQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADx/T9BXTkvOpdrPryebxHPwQMkSk1l9peZjOaxnfTf0gAAAAAOgAAAAAIAACAAAADUHR20/RTUfNocp4D/kwBzF9nuWfVZqdXEwm9qjU92/xAAAABKV7eD2XRGGRaxNwByJUZ7QAAAAK7cDvgh8mk7xpYFoVMbkzhX5sfzOqi/kf9wLJ/bimIytQjqq/w9OxSWIOUqTuJg6qHnqRPwc54oHGu/zqmtDGc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAGwvsa5MOT8vAVHupUdgz2fO/LXpwyX2bhtcyiCfyluwAAAAAOgAAAAAIAACAAAAB4BITkaHPT4yGj1gYsF67uYqZ8/TGc8AwiMwQvGxkbuRAAAAB1H6/kYZLZluYQTdWnqH+rQAAAAM3hshDKfohPF6YfvdY3IkoCl44tT2kE4cz5jW5o6kX9R4GXMJuEO1hRl3Hi/Pf+gfnMxMO5Yz1i/my9Ph6xhbI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -920,7 +920,6 @@
       DTS:refId="Package\Insertar en log(Machine)"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
-      DTS:Disabled="True"
       DTS:DTSID="{06d4bb7d-55b8-4c57-afc6-8c128c37b1e4}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5730,6 +5729,395 @@
           ReadOnlyVariables="User::accept_EncodingParameter,User::acceptParameter,User::contentTypeParameterToken,User::flatFilePathDriver,User::flatFilePathMachine,User::grantTypeParameterToken,User::passwordParameterToken,User::urlDriver,User::urlMachine,User::urlToken,User::usernameParameterToken"
           ReadWriteVariables="User::driverLog,User::errorMessage,User::errorMessageMachine,User::log,User::nombreServicioWeb">
           <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+          <ProjectItem
+            Name="Token.cs"
+            Encoding="UTF8"><![CDATA[using RestSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ST_d78eb5f92bab44e283b861254dfd5b2f
+{
+    class Token
+    {
+        public string access_token { get; set; }
+        public string token_type { get; set; }
+        public string expires_in { get; set; }
+
+        public IRestResponse GetToken(string urlToken, string accept, string contentType,
+                                      string username, string password, string grantType)
+        {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            var client = new RestClient(urlToken);
+            client.Timeout = -1;
+            var request = new RestRequest(Method.POST);
+            request.AddHeader("Accept", accept);
+            request.AddHeader("Content-Type", contentType);
+            request.AddParameter("username", username);
+            request.AddParameter("password", password);
+            request.AddParameter("grant_type", grantType);
+            IRestResponse response = client.Execute(request);
+            return response;
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="ST_16202363124543d0b9b9b94b355c1f7c.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{870F64C4-AA24-4D0F-A30D-22F8D32E4487}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_d78eb5f92bab44e283b861254dfd5b2f</RootNamespace>
+    <AssemblyName>ST_16202363124543d0b9b9b94b355c1f7c</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>C:\Users\USER\AppData\Local\Temp\Vsta\SSIS_ST150\VstabA9IfMa_kECG9n6Xl__HGpA\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\USER\source\repos\EtlDTM\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Token.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RankingOperacion.cs" />
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="RankingOperacion.cs"
+            Encoding="UTF8"><![CDATA[using RestSharp;
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace ST_d78eb5f92bab44e283b861254dfd5b2f
+{
+    class RankingOperacion
+    {
+        public DateTime RankingDate { get; set; }
+        public string DriverIdentification { get; set; }
+        public string DriverName { get; set; }
+        public string DriverGroup { get; set; }
+        public double? OverSpeedScore { get; set; }
+        public int OverSpeedCount { get; set; }
+        public double? MaxSpeed { get; set; }
+        public double? OverRpmScore { get; set; }
+        public int OverRpmCount { get; set; }
+        public double? MaxRpm { get; set; }
+        public double? ExessiveIdleScore { get; set; }
+        public int ExcessiveIdleCount { get; set; }
+        public double? ExcessiveIdleTotalSeconds { get; set; }
+        public double? GreenBandScore { get; set; }
+        public int GreenBandCount { get; set; }
+        public double? GreenBandTotalSeconds { get; set; }
+        public double? OverAccelerationScore { get; set; }
+        public int OverAccelerationCount { get; set; }
+        public double? MaxAcceleration { get; set; }
+        public double? HarshBrakeScore { get; set; }
+        public int HarshBrakeCount { get; set; }
+        public double? MaxBrake { get; set; }
+        public double? LoginScore { get; set; }
+        public double? LoginCount { get; set; }
+        public double? DelayedStartScore { get; set; }
+        public int DelayedStartCount { get; set; }
+        public double? DelayedStartTime { get; set; }
+        public double? DelayedRouteDrivingScore { get; set; }
+        public int DelayedRouteDrivingCount { get; set; }
+        public double? DelayedRouteDrivingTime { get; set; }
+        public double? TotalScore { get; set; }
+        public string MachineName { get; set; }
+        public string MachineGroup { get; set; }
+        public double? OverSpeedTotalSeconds { get; set; }
+        public double? SpeedTime { get; set; }
+        public double? OverRpmTotalSeconds { get; set; }
+        public double? RpmTime { get; set; }
+        public double? GreenBandTime { get; set; }
+        public double? OverAccelerationTotalSeconds { get; set; }
+        public double? HarshBrakeTotalSeconds { get; set; }
+        public double? Distance { get; set; }
+        public double? Odometer { get; set; }
+        public double? Liters { get; set; }
+        public double? DrivingTime { get; set; }
+        public double? EngineTime { get; set; }
+        public double? EngineHours { get; set; }
+        public double? ExidleTime { get; set; }
+        public int? IdleEnterCount { get; set; }
+        public double? NidleTime { get; set; }
+        public double? StandingTime { get; set; }
+        public double? StartLatitude { get; set; }
+        public double? StartLongitude { get; set; }
+        public double? EndLatitude { get; set; }
+        public double? EndLongitude { get; set; }
+        public double? TotalTime { get; set; }
+
+        public IRestResponse ConsumeApiRest(string token, string url, string accept, string accept_Encoding, DateTime starDate, DateTime endDate)
+        {
+            var clientGet = new RestClient(url);
+            clientGet.Timeout = -1;
+            var requestGet = new RestRequest(Method.GET);
+            string bearer = "bearer" + " " + token;
+            requestGet.AddHeader("Authorization", bearer);
+            requestGet.AddHeader("Accept", accept);
+            requestGet.AddHeader("Accept-Encoding", accept_Encoding);
+            requestGet.AddParameter("startDate", starDate.ToString("s").Replace("T", " "));
+            requestGet.AddParameter("endDate", endDate.ToString("s").Replace("T", " "));
+            IRestResponse responseGet = clientGet.Execute(requestGet);
+            return responseGet;
+        }
+        public void LoadFlatFile(string flatFilePath, List<RankingOperacion> listJsonDriverMachine)
+        {
+            using (StreamWriter file = File.AppendText(flatFilePath))
+            {
+                if (flatFilePath == "C:\\ProgramasTDM\\WSEquitel\\TDM_DatosApi\\DataApiTDMMachine.txt")
+                {
+                    foreach (RankingOperacion dataApi in listJsonDriverMachine)
+                    {
+                        var dataComplet = dataApi.RankingDate.ToString("d")                             + ";" + dataApi.MachineName.Replace("CO_", "") + ";" + dataApi.MachineGroup + ";" + dataApi.OverSpeedScore.ToString().Replace(",",".") +
+                                    ";" + dataApi.OverSpeedCount                                        + ";" + dataApi.OverSpeedTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.MaxSpeed.ToString().Replace(",", ".")                  + ";" + dataApi.SpeedTime.ToString().Replace(",", ".") +
+                                    ";" + dataApi.OverRpmScore.ToString().Replace(",", ".")             + ";" + dataApi.OverSpeedCount                                              + ";" + dataApi.OverRpmTotalSeconds.ToString().Replace(",", ".")       + ";" + dataApi.MaxRpm.ToString().Replace(",", ".") + ";" + dataApi.RpmTime.ToString().Replace(",", ".") +
+                                    ";" + dataApi.ExessiveIdleScore.ToString().Replace(",", ".")        + ";" + dataApi.ExcessiveIdleCount                                          + ";" + dataApi.ExcessiveIdleTotalSeconds.ToString().Replace(",", ".") + ";" + dataApi.GreenBandScore.ToString().Replace(",", ".") +
+                                    ";" + dataApi.GreenBandCount                                        + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.GreenBandTime.ToString().Replace(",", ".")             + ";" + dataApi.OverAccelerationScore.ToString().Replace(",", ".") +
+                                    ";" + dataApi.OverAccelerationCount                                 + ";" + dataApi.OverAccelerationTotalSeconds.ToString().Replace(",", ".")   + ";" + dataApi.MaxAcceleration.ToString().Replace(",", ".")           + ";" + dataApi.HarshBrakeScore.ToString().Replace(",", ".") +
+                                    ";" + dataApi.HarshBrakeCount                                       + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.MaxBrake.ToString().Replace(",", ".")                  + ";" + dataApi.LoginScore.ToString().Replace(",", ".") +
+                                    ";" + dataApi.LoginCount                                            + ";" + dataApi.DelayedStartScore.ToString().Replace(",", ".")              + ";" + dataApi.DelayedStartCount                                      + ";" + dataApi.DelayedStartTime.ToString().Replace(",", ".") +
+                                    ";" + dataApi.DelayedRouteDrivingScore.ToString().Replace(",", ".") + ";" + dataApi.DelayedRouteDrivingCount                                    + ";" + dataApi.DelayedRouteDrivingTime.ToString().Replace(",", ".")   + ";" + dataApi.Distance.ToString().Replace(",", ".") +
+                                    ";" + dataApi.Odometer.ToString().Replace(",", ".")                 + ";" + dataApi.Liters.ToString().Replace(",", ".")                         + ";" + dataApi.DrivingTime.ToString().Replace(",", ".")               + ";" + dataApi.EngineTime.ToString().Replace(",", ".") +
+                                    ";" + dataApi.EngineHours.ToString().Replace(",", ".")              + ";" + dataApi.ExidleTime.ToString().Replace(",", ".")                     + ";" + dataApi.IdleEnterCount                                         + ";" + dataApi.NidleTime.ToString().Replace(",", ".") +
+                                    ";" + dataApi.StandingTime.ToString().Replace(",", ".")             + ";" + dataApi.StartLatitude.ToString().Replace(",", ".")                  + ";" + dataApi.StartLongitude.ToString().Replace(",", ".")            + ";" + dataApi.EndLatitude.ToString().Replace(",", ".") +
+                                    ";" + dataApi.EndLongitude.ToString().Replace(",", ".")             + ";" + dataApi.TotalScore.ToString().Replace(",", ".")                     + ";" + dataApi.TotalTime.ToString().Replace(",", ".");
+                        file.WriteLine(dataComplet);
+                    }
+
+                }
+                else if (flatFilePath == "C:\\ProgramasTDM\\WSEquitel\\TDM_DatosApi\\DataApiTDMDriver.txt")
+                {
+                    foreach (RankingOperacion dataApi in listJsonDriverMachine)
+                    {
+                        var dataComplet =         dataApi.RankingDate                + ";" + dataApi.DriverIdentification.Replace(".", "").Replace("CO_","") + ";" + dataApi.DriverName.ToUpper() +
+                                            ";" + dataApi.DriverGroup                + ";" + dataApi.OverSpeedScore.ToString().Replace(",", ".") + ";" + dataApi.OverSpeedCount + ";" + dataApi.MaxSpeed.ToString().Replace(",", ".") +
+                                            ";" + dataApi.OverRpmScore.ToString().Replace(",", ".") + ";" + dataApi.OverRpmCount            + ";" + dataApi.MaxRpm.ToString().Replace(",", ".") +
+                                            ";" + dataApi.ExessiveIdleScore.ToString().Replace(",", ".") + ";" + dataApi.ExcessiveIdleCount      + ";" + dataApi.ExcessiveIdleTotalSeconds.ToString().Replace(",", ".") +
+                                            ";" + dataApi.GreenBandScore.ToString().Replace(",", ".") + ";" + dataApi.GreenBandCount          + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".") +
+                                            ";" + dataApi.OverAccelerationScore.ToString().Replace(",", ".") + ";" + dataApi.OverAccelerationCount   + ";" + dataApi.MaxAcceleration.ToString().Replace(",", ".") +
+                                            ";" + dataApi.HarshBrakeScore.ToString().Replace(",", ".") + ";" + dataApi.HarshBrakeCount         + ";" + dataApi.MaxBrake.ToString().Replace(",", ".") +
+                                            ";" + dataApi.LoginScore.ToString().Replace(",", ".") + ";" + dataApi.LoginCount              + ";" + dataApi.DelayedStartScore.ToString().Replace(",", ".") +
+                                            ";" + dataApi.DelayedStartCount          + ";" + dataApi.DelayedStartTime.ToString().Replace(",", ".") + ";" + dataApi.DelayedRouteDrivingScore.ToString().Replace(",", ".") +
+                                            ";" + dataApi.DelayedRouteDrivingCount   + ";" + dataApi.DelayedRouteDrivingTime.ToString().Replace(",", ".") + ";" + dataApi.TotalScore.ToString().Replace(",", ".");
+                        file.WriteLine(dataComplet);
+                    }
+                }
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[
 
@@ -5999,159 +6387,28 @@ namespace ST_d78eb5f92bab44e283b861254dfd5b2f
 	}
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Resources.resx"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
-          <ProjectItem
-            Name="Token.cs"
-            Encoding="UTF8"><![CDATA[using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ST_d78eb5f92bab44e283b861254dfd5b2f
-{
-    class Token
-    {
-        public string access_token { get; set; }
-        public string token_type { get; set; }
-        public string expires_in { get; set; }
-
-        public IRestResponse GetToken(string urlToken, string accept, string contentType,
-                                      string username, string password, string grantType)
-        {
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            var client = new RestClient(urlToken);
-            client.Timeout = -1;
-            var request = new RestRequest(Method.POST);
-            request.AddHeader("Accept", accept);
-            request.AddHeader("Content-Type", contentType);
-            request.AddParameter("username", username);
-            request.AddParameter("password", password);
-            request.AddParameter("grant_type", grantType);
-            IRestResponse response = client.Execute(request);
-            return response;
-        }
-    }
-}]]></ProjectItem>
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_16202363124543d0b9b9b94b355c1f7c</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_16202363124543d0b9b9b94b355c1f7c</msb:DisplayName>
+    <msb:ProjectId>{514825FF-4F1B-45F1-B1BE-306D22E8E9C9}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_16202363124543d0b9b9b94b355c1f7c.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="packages.config" />
+    <msb:File Include="Token.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="RankingOperacion.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
           <ProjectItem
             Name="packages.config"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -6188,255 +6445,6 @@ namespace ST_d78eb5f92bab44e283b861254dfd5b2f.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="RankingOperacion.cs"
-            Encoding="UTF8"><![CDATA[using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace ST_d78eb5f92bab44e283b861254dfd5b2f
-{
-    class RankingOperacion
-    {
-        public DateTime RankingDate { get; set; }
-        public string DriverIdentification { get; set; }
-        public string DriverName { get; set; }
-        public string DriverGroup { get; set; }
-        public double? OverSpeedScore { get; set; }
-        public int OverSpeedCount { get; set; }
-        public double? MaxSpeed { get; set; }
-        public double? OverRpmScore { get; set; }
-        public int OverRpmCount { get; set; }
-        public double? MaxRpm { get; set; }
-        public double? ExessiveIdleScore { get; set; }
-        public int ExcessiveIdleCount { get; set; }
-        public double? ExcessiveIdleTotalSeconds { get; set; }
-        public double? GreenBandScore { get; set; }
-        public int GreenBandCount { get; set; }
-        public double? GreenBandTotalSeconds { get; set; }
-        public double? OverAccelerationScore { get; set; }
-        public int OverAccelerationCount { get; set; }
-        public double? MaxAcceleration { get; set; }
-        public double? HarshBrakeScore { get; set; }
-        public int HarshBrakeCount { get; set; }
-        public double? MaxBrake { get; set; }
-        public double? LoginScore { get; set; }
-        public double? LoginCount { get; set; }
-        public double? DelayedStartScore { get; set; }
-        public int DelayedStartCount { get; set; }
-        public double? DelayedStartTime { get; set; }
-        public double? DelayedRouteDrivingScore { get; set; }
-        public int DelayedRouteDrivingCount { get; set; }
-        public double? DelayedRouteDrivingTime { get; set; }
-        public double? TotalScore { get; set; }
-        public string MachineName { get; set; }
-        public string MachineGroup { get; set; }
-        public double? OverSpeedTotalSeconds { get; set; }
-        public double? SpeedTime { get; set; }
-        public double? OverRpmTotalSeconds { get; set; }
-        public double? RpmTime { get; set; }
-        public double? GreenBandTime { get; set; }
-        public double? OverAccelerationTotalSeconds { get; set; }
-        public double? HarshBrakeTotalSeconds { get; set; }
-        public double? Distance { get; set; }
-        public double? Odometer { get; set; }
-        public double? Liters { get; set; }
-        public double? DrivingTime { get; set; }
-        public double? EngineTime { get; set; }
-        public double? EngineHours { get; set; }
-        public double? ExidleTime { get; set; }
-        public int? IdleEnterCount { get; set; }
-        public double? NidleTime { get; set; }
-        public double? StandingTime { get; set; }
-        public double? StartLatitude { get; set; }
-        public double? StartLongitude { get; set; }
-        public double? EndLatitude { get; set; }
-        public double? EndLongitude { get; set; }
-        public double? TotalTime { get; set; }
-
-        public IRestResponse ConsumeApiRest(string token, string url, string accept, string accept_Encoding, DateTime starDate, DateTime endDate)
-        {
-            var clientGet = new RestClient(url);
-            clientGet.Timeout = -1;
-            var requestGet = new RestRequest(Method.GET);
-            string bearer = "bearer" + " " + token;
-            requestGet.AddHeader("Authorization", bearer);
-            requestGet.AddHeader("Accept", accept);
-            requestGet.AddHeader("Accept-Encoding", accept_Encoding);
-            requestGet.AddParameter("startDate", starDate.ToString("s").Replace("T", " "));
-            requestGet.AddParameter("endDate", endDate.ToString("s").Replace("T", " "));
-            IRestResponse responseGet = clientGet.Execute(requestGet);
-            return responseGet;
-        }
-        public void LoadFlatFile(string flatFilePath, List<RankingOperacion> listJsonDriverMachine)
-        {
-            using (StreamWriter file = File.AppendText(flatFilePath))
-            {
-                if (flatFilePath == "C:\\ProgramasTDM\\WSEquitel\\TDM_DatosApi\\DataApiTDMMachine.txt")
-                {
-                    foreach (RankingOperacion dataApi in listJsonDriverMachine)
-                    {
-                        var dataComplet = dataApi.RankingDate.ToString("d")                             + ";" + dataApi.MachineName.Replace("CO_", "") + ";" + dataApi.MachineGroup + ";" + dataApi.OverSpeedScore.ToString().Replace(",",".") +
-                                    ";" + dataApi.OverSpeedCount                                        + ";" + dataApi.OverSpeedTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.MaxSpeed.ToString().Replace(",", ".")                  + ";" + dataApi.SpeedTime.ToString().Replace(",", ".") +
-                                    ";" + dataApi.OverRpmScore.ToString().Replace(",", ".")             + ";" + dataApi.OverSpeedCount                                              + ";" + dataApi.OverRpmTotalSeconds.ToString().Replace(",", ".")       + ";" + dataApi.MaxRpm.ToString().Replace(",", ".") + ";" + dataApi.RpmTime.ToString().Replace(",", ".") +
-                                    ";" + dataApi.ExessiveIdleScore.ToString().Replace(",", ".")        + ";" + dataApi.ExcessiveIdleCount                                          + ";" + dataApi.ExcessiveIdleTotalSeconds.ToString().Replace(",", ".") + ";" + dataApi.GreenBandScore.ToString().Replace(",", ".") +
-                                    ";" + dataApi.GreenBandCount                                        + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.GreenBandTime.ToString().Replace(",", ".")             + ";" + dataApi.OverAccelerationScore.ToString().Replace(",", ".") +
-                                    ";" + dataApi.OverAccelerationCount                                 + ";" + dataApi.OverAccelerationTotalSeconds.ToString().Replace(",", ".")   + ";" + dataApi.MaxAcceleration.ToString().Replace(",", ".")           + ";" + dataApi.HarshBrakeScore.ToString().Replace(",", ".") +
-                                    ";" + dataApi.HarshBrakeCount                                       + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".")          + ";" + dataApi.MaxBrake.ToString().Replace(",", ".")                  + ";" + dataApi.LoginScore.ToString().Replace(",", ".") +
-                                    ";" + dataApi.LoginCount                                            + ";" + dataApi.DelayedStartScore.ToString().Replace(",", ".")              + ";" + dataApi.DelayedStartCount                                      + ";" + dataApi.DelayedStartTime.ToString().Replace(",", ".") +
-                                    ";" + dataApi.DelayedRouteDrivingScore.ToString().Replace(",", ".") + ";" + dataApi.DelayedRouteDrivingCount                                    + ";" + dataApi.DelayedRouteDrivingTime.ToString().Replace(",", ".")   + ";" + dataApi.Distance.ToString().Replace(",", ".") +
-                                    ";" + dataApi.Odometer.ToString().Replace(",", ".")                 + ";" + dataApi.Liters.ToString().Replace(",", ".")                         + ";" + dataApi.DrivingTime.ToString().Replace(",", ".")               + ";" + dataApi.EngineTime.ToString().Replace(",", ".") +
-                                    ";" + dataApi.EngineHours.ToString().Replace(",", ".")              + ";" + dataApi.ExidleTime.ToString().Replace(",", ".")                     + ";" + dataApi.IdleEnterCount                                         + ";" + dataApi.NidleTime.ToString().Replace(",", ".") +
-                                    ";" + dataApi.StandingTime.ToString().Replace(",", ".")             + ";" + dataApi.StartLatitude.ToString().Replace(",", ".")                  + ";" + dataApi.StartLongitude.ToString().Replace(",", ".")            + ";" + dataApi.EndLatitude.ToString().Replace(",", ".") +
-                                    ";" + dataApi.EndLongitude.ToString().Replace(",", ".")             + ";" + dataApi.TotalScore.ToString().Replace(",", ".")                     + ";" + dataApi.TotalTime.ToString().Replace(",", ".");
-                        file.WriteLine(dataComplet);
-                    }
-
-                }
-                else if (flatFilePath == "C:\\ProgramasTDM\\WSEquitel\\TDM_DatosApi\\DataApiTDMDriver.txt")
-                {
-                    foreach (RankingOperacion dataApi in listJsonDriverMachine)
-                    {
-                        var dataComplet =         dataApi.RankingDate                + ";" + dataApi.DriverIdentification.Replace(".", "").Replace("CO_","") + ";" + dataApi.DriverName.ToUpper() +
-                                            ";" + dataApi.DriverGroup                + ";" + dataApi.OverSpeedScore.ToString().Replace(",", ".") + ";" + dataApi.OverSpeedCount + ";" + dataApi.MaxSpeed.ToString().Replace(",", ".") +
-                                            ";" + dataApi.OverRpmScore.ToString().Replace(",", ".") + ";" + dataApi.OverRpmCount            + ";" + dataApi.MaxRpm.ToString().Replace(",", ".") +
-                                            ";" + dataApi.ExessiveIdleScore.ToString().Replace(",", ".") + ";" + dataApi.ExcessiveIdleCount      + ";" + dataApi.ExcessiveIdleTotalSeconds.ToString().Replace(",", ".") +
-                                            ";" + dataApi.GreenBandScore.ToString().Replace(",", ".") + ";" + dataApi.GreenBandCount          + ";" + dataApi.GreenBandTotalSeconds.ToString().Replace(",", ".") +
-                                            ";" + dataApi.OverAccelerationScore.ToString().Replace(",", ".") + ";" + dataApi.OverAccelerationCount   + ";" + dataApi.MaxAcceleration.ToString().Replace(",", ".") +
-                                            ";" + dataApi.HarshBrakeScore.ToString().Replace(",", ".") + ";" + dataApi.HarshBrakeCount         + ";" + dataApi.MaxBrake.ToString().Replace(",", ".") +
-                                            ";" + dataApi.LoginScore.ToString().Replace(",", ".") + ";" + dataApi.LoginCount              + ";" + dataApi.DelayedStartScore.ToString().Replace(",", ".") +
-                                            ";" + dataApi.DelayedStartCount          + ";" + dataApi.DelayedStartTime.ToString().Replace(",", ".") + ";" + dataApi.DelayedRouteDrivingScore.ToString().Replace(",", ".") +
-                                            ";" + dataApi.DelayedRouteDrivingCount   + ";" + dataApi.DelayedRouteDrivingTime.ToString().Replace(",", ".") + ";" + dataApi.TotalScore.ToString().Replace(",", ".");
-                        file.WriteLine(dataComplet);
-                    }
-                }
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
-            Name="ST_16202363124543d0b9b9b94b355c1f7c.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{870F64C4-AA24-4D0F-A30D-22F8D32E4487}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_d78eb5f92bab44e283b861254dfd5b2f</RootNamespace>
-    <AssemblyName>ST_16202363124543d0b9b9b94b355c1f7c</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>C:\Users\USER\AppData\Local\Temp\Vsta\SSIS_ST150\VstabA9IfMa_kECG9n6Xl__HGpA\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\USER\source\repos\EtlDTM\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Token.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="RankingOperacion.cs" />
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-          <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_16202363124543d0b9b9b94b355c1f7c</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_16202363124543d0b9b9b94b355c1f7c</msb:DisplayName>
-    <msb:ProjectId>{514825FF-4F1B-45F1-B1BE-306D22E8E9C9}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_16202363124543d0b9b9b94b355c1f7c.csproj" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="packages.config" />
-    <msb:File Include="Token.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="RankingOperacion.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -6466,15 +6474,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
